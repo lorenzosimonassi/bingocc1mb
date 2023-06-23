@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGO</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Jogo do Bingo</h1>
+    </header>
+
+    <main>
+        <section id="area_cartelas">
+            <div id="header_cartelas">
+                <h3>Cartelas</h3>
+                <input type="text" id="nome_jogador" placeholder="Nome do Jogador">
+                <button onclick="gerarCartelaHTML()">Gerar Cartela</button>
+                <button onclick="reiniciarJogo()">Reiniciar Jogo</button>
+            </div>
+
+            <div id="body_cartelas"></div>
+        </section>
+
+        <section id="area_jogo">
+            <div id="header_jogo">
+                <button onclick="iniciarTemporizador()">Jogar</button>
+            </div>
+
+            <div id="body_jogo">
+                <ul id="numeros-sorteados-lista"></ul>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-image: url('https://i.ytimg.com/vi/KIf7zmEihE4/maxresdefault.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+button {
+    border: 1px solid white;
+    height: 50px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: rgb(146, 15, 11);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    height: 50px;
+    border: 1px solid black;
+    width: 170px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#area_cartelas {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header_cartelas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#header_cartelas button {
+    margin: 0 5px;
+}
+
+#body_cartelas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartela {
+    margin: 0 10px 20px 10px;
+}
+
+.cartela h4 {
+    margin-top: 0;
+    color: white;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(209, 4, 4);
+    font-weight: bold;
+}
+
+.numero-vazio {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.numero-presente {
+    background-color: lightgreen;
+}
+
+#area_numeros {
+    text-align: center;
+}
+
+#header_numeros {
+    margin-bottom: 10px;
+}
+
+#header_numeros button {
+    padding: 5px 10px;
+}
+
+#body_numeros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numeros-sorteados-lista {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#numeros-sorteados-lista span {
+    margin-right: 5px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.numero-presente {
+    background-color: green;
+}
+
+#area_jogo {
+    display: flex;
+}
+
+#body_jogo {
+    display: flex;
+}
+
+#body_jogo span {
+    display: flex;
+}
